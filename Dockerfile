@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY ./index.js ./
 
+EXPOSE 1234
+
 CMD ["node", "index.js"]
